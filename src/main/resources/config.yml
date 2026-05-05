@@ -1,0 +1,15 @@
+# DonutOrders Configuration
+
+# Prices for different donut flavors
+donut-prices:
+  strawberry: 5.00
+  chocolate: 6.50
+  vanilla: 4.50
+  blueberry: 7.00
+
+# Note: Topping prices could be added and handled in DonutManager if desired.
+# Example:
+# topping-prices:
+#   sprinkles: 1.00
+#   chocolate_chips: 1.50
+#   glaze: 0.50
