@@ -1,0 +1,19 @@
+main: com.blockmart.donutorders.DonutOrders
+name: DonutOrders
+version: '1.0.0'
+api-version: '1.20'
+author: BlockMart
+description: A plugin for ordering custom donuts.
+commands:
+  donutorder:
+    description: Order a custom donut.
+    usage: /donutorder <flavor> [topping]
+    permission: donutorders.order
+    permission-message: You do not have permission to order donuts.
+permissions:
+  donutorders.order:
+    description: Allows players to order donuts.
+    default: true
+  donutorders.admin:
+    description: Allows administrators to manage donut orders.
+    default: op
